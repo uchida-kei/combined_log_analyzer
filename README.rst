@@ -9,13 +9,6 @@ We supply the target period and time zone with option arguments.
 Installation
 ============
 
-use pip::
-
-
-    $ git clone https://github.com/uchida-kei/combined_log_analyzer.git
-    $ cd combined_log_analyzer
-    $ pip install -r requirements.txt
-
 
 use poetry::
 
