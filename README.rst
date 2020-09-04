@@ -20,7 +20,7 @@ use poetry::
 
 Usage
 =====
-::
+Receives a file on standard input::
 
     $ cla < LOGFILE
 
@@ -32,7 +32,7 @@ When inputting multiple files
 
 When summarizing by specifying a period
 :::::::::::::::::::::::::::::::::::::::
-::
+The date format must be an ISO 8601 extension::
 
     $ cla --from STARTDATE --to ENDDATE < LOGFILE
 
