@@ -22,19 +22,19 @@ Usage
 =====
 ::
 
-    $ cal < LOGFILE
+    $ cla < LOGFILE
 
 When inputting multiple files
 :::::::::::::::::::::::::::::
 ::
 
-    $ cat LOGFIEL1 LOGFIEL2 LOGFIEL3 | cal
+    $ cat LOGFIEL1 LOGFIEL2 LOGFIEL3 | cla
 
 When summarizing by specifying a period
 :::::::::::::::::::::::::::::::::::::::
 ::
 
-    $ cal --from STARTDATE --to ENDDATE < LOGFILE
+    $ cla --from STARTDATE --to ENDDATE < LOGFILE
 
 Performance
 ===========
