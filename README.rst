@@ -9,37 +9,36 @@ We supply the target period and time zone with option arguments.
 Installation
 ============
 
-use pip:
+use pip::
 
 
     $ git clone https://github.com/uchida-kei/combined_log_analyzer.git
-
     $ cd combined_log_analyzer
-
     $ pip install -r requirements.txt
 
 
-use poetry:
+use poetry::
 
     $ git clone https://github.com/uchida-kei/combined_log_analyzer.git
-
     $ cd combined_log_analyzer
-    
     $ poetry install --no-dev
 
 
 Usage
 =====
+::
 
     $ cal < LOGFILE
 
 When inputting multiple files
 :::::::::::::::::::::::::::::
+::
 
     $ cat LOGFIEL1 LOGFIEL2 LOGFIEL3 | cal
 
 When summarizing by specifying a period
 :::::::::::::::::::::::::::::::::::::::
+::
 
     $ cal --from STARTDATE --to ENDDATE < LOGFILE
 
