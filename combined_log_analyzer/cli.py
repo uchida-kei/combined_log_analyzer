@@ -42,7 +42,7 @@ def total_result_display(
         try:
             iso_date_from = datetime.datetime.fromisoformat(date_from)
         except ValueError:
-            typer.echo("error")
+            typer.echo("ERROR: The format must be an ISO 8601 extension.")
             return
     else:
         iso_date_from = datetime.datetime.min
@@ -51,7 +51,7 @@ def total_result_display(
         try:
             iso_to_date = datetime.datetime.fromisoformat(to_date)
         except ValueError:
-            typer.echo("error3")
+            typer.echo("ERROR: The format must be an ISO 8601 extension.")
             return
     else:
         iso_to_date = datetime.datetime.max
