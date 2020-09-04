@@ -15,6 +15,7 @@ use poetry::
     $ git clone https://github.com/uchida-kei/combined_log_analyzer.git
     $ cd combined_log_analyzer
     $ poetry install --no-dev
+    $ poetry shell
 
 
 Usage
